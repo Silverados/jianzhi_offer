@@ -50,15 +50,8 @@ public class Q26_SubTree {
         }
         StringBuilder sb = new StringBuilder();
         sb.append(s.val);
-
-
         sb.append('_').append(serial(s.left));
-
-
-
         sb.append('_').append(serial(s.right));
-
-
         return sb.toString();
     }
 
